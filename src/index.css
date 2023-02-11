@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(120 120 120);
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cuadrado {
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  background-image: url("portada.jpg");
+  background-size: cover;
+  z-index: 1;
+}
+
+.disco {
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, rgb(250 58 58 / 100%) 22%, rgb(193 22 22 / 100%) 58%, rgb(231 5 5 / 100%) 80%);
+  translate: -40px;
+  position: relative;
+}
+
+.rojo {
+  height: 200px;
+  width: 200px;
+  background-image: url("cd.jpg");
+  background-size: cover;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blanco {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(120 120 120);
+  border-radius: 100%;
+}
